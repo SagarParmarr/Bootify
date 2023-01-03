@@ -1,18 +1,25 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="HomeContainer">
+    <CommanNavBar :isVisible="false" />
+    <h1>This is Home Page</h1>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import CommanNavBar from "../components/CommanNavBar.vue";
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld
-  }
-}
+    CommanNavBar,
+  },
+};
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.HomeContainer {
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(180deg, #4c0000 0%, #0a0a0a 100%);
+}
+</style>
