@@ -10,7 +10,7 @@ app.config.globalProperties = {
   $clientId: "ac9159c4fb2b4c6b94ff2f7a6d04abb6",
   $clientSecret: "45b60a7f490945e9868eaf17339229d4",
   $sdkToken:
-    "BQDUhH4dDgHHwgBg4upOsn5ANrqhEJCoWHpEuM02G2vUxH5dWzJ-g6mXQBpGc5b9m7gzZWD0i7_gNC6ShxEBlSeFkIX99GuRWFAXkyG69_V5QccKN-0wGaP5VIa1_DrXDsvTDjs068suojsO9kLw4-sRe9E3PGjbRp85CuJawZAhAVKa7MJh_dJM59lMuKq3IowDbvJ92SbXEoAZncON-vjpaEI",
+    "BQDckoC8Vx1Qtf1zAYnTr3LQvpgxmZptfN_pVO7jdqcIFwpCKlN4jQLhrC2C4aZqc9atA3WugGJd-YJz3YchHHcu2pLCsUcKIT84KhosWXE200XN9X581mccQFCCAczgL2NCdOoO-ndjTkF2qr9ZlicY8NuFeoqGclxOiSIJGikTio9KuW7ymrrjUUmDmJlewzcYxy-Hnfjk4_RQUCGpPSMNBYw",
   $extractArtistNames: (artists) => {
     let artistNames = "";
     artists.forEach((artist) => {
